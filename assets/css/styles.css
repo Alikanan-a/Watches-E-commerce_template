@@ -1204,3 +1204,11 @@ body.dark-theme {
     right: 3rem;
   }
 }
+.floating-wpp {
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 530ms ease;
+}
+.floating-wp:hover {
+  transform: rotate(360deg);
+}
